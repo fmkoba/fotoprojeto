@@ -7,6 +7,7 @@
   "bugs": {
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },
+  "browserslist": [">0.25%", "not dead"],
   "dependencies": {
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",

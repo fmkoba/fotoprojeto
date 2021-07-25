@@ -17,8 +17,8 @@ const BlogIndex = ({ data }, location) => {
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
-        keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+        title="Foto Projeto"
+        keywords={[`blog`, `portfolio`, `fotografia`]}
       />
       {/* <Bio /> */}
       {data.site.siteMetadata.description && (
@@ -61,7 +61,7 @@ const indexQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "dd mm, YYYY")
             title
             description
             thumbnail {
