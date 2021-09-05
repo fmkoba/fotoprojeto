@@ -2,9 +2,10 @@
 title: Mesa
 date: "2021-05-04"
 thumbnail: ./mesa.jpeg
-description: "Lorem ipsum"
+description: ""
 ---
 
-![Cactus](./mesa.jpeg)
 
-![Cactus](./mesa.jpeg)
+![Cactus](./mesa3.jpg)
+![Cactus](./mesa4.jpg)
+![Cactus](./mesa5.jpg)

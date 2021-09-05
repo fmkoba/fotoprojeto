@@ -11,8 +11,7 @@ const Layout = props => {
           <a
             className="nav-burger"
             href={`#`}
-            onClick={() => setToggleNav(!toggleNav)}
-          >
+            onClick={() => setToggleNav(!toggleNav)}>
             <div
               className="hamburger hamburger--collapse"
               aria-label="Menu"
@@ -30,10 +29,10 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li>
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <a href="https://wa.me/5514997008686">Whatsapp</a>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              <li className="nav-about" role="menuitem">
+                <a href="mailto:contato@fotoprojeto.com.br">Email</a>
               </li>
             </ul>
           </nav>
@@ -45,7 +44,7 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/fprojeto/"
                 title="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,21 +52,14 @@ const Layout = props => {
                 Facebook
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="https://www.instagram.com/fotoprojeto/"
+                title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Instagram
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
+
             </div>
           </div>
         </div>
